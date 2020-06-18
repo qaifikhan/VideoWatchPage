@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  font-family: "Source Sans Pro", sans-serif;
+  background-color: #54c3ef;
+}
+
+#card-grid {
+  width: 100%;
+  padding: 4% 12%;
+  box-sizing: border-box;
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.playlist-card {
+  width: calc(25% - 16px);
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  margin: 8px;
+  box-sizing: border-box;
+  background-color: white;
+}
+
+.playlist-card > a {
+  text-decoration: none;
+  color: black;
+}
+
+.active-card {
+  border: 4px solid #fad744;
+}
+
+.thumbnail {
+  display: block;
+  width: 100%;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
+.video-card-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0;
+  padding: 16px;
+}
+
+#progress-bar {
+  display: none;
+}
